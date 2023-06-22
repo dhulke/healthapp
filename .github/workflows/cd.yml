@@ -19,4 +19,4 @@ jobs:
           cd ~/healthapp
           git pull
           npm install
-          pm2 start index.js
+          pm2 restart index
